@@ -40,25 +40,25 @@ data文件夹，放游戏数据和谱面数据，csv格式
 project  
 |_ py文件*9  
 |_ data  
-  |_ music_scores  
-    |_谱面数据文件（.csv）  
-  |_record.csv(游戏记录数据文件)  
+>|_ music_scores  
+>>|_谱面数据文件（.csv）  
+>|_record.csv(游戏记录数据文件)  
     
 |_font  
-  |_ 各类字体文件  
+>|_ 各类字体文件  
   
 |_music  
-  |_ 音乐文件(.mp3)  
+>|_ 音乐文件(.mp3)  
   
 |_ picture    
-  |_ game  
-    |_ 图片文件(.png)  
-  |_login  
-    |_ 图片文件(.png)  
-  |_select  
-    |_图片文件(.png)  
-  |_summary  
-    |_ 图片文件(.png)  
+>|_ game  
+>>|_ 图片文件(.png)  
+>|_login  
+>>|_ 图片文件(.png)  
+>|_select  
+>>|_图片文件(.png)  
+>|_summary  
+>>|_ 图片文件(.png)  
   
   
   
