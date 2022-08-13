@@ -11,7 +11,7 @@ game_summary
 login_setting  
 music_score  
    
-图片文件四个文件夹：
+图片文件四个文件夹：（放在issues那里了）  
 game  
 login  
 select  
