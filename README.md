@@ -1,15 +1,15 @@
 基于PYTHON的音游，性能不咋地应付毕业论文还是可以（
  
 代码文件九个： 
-game 
+game  
 game_hub  
-game_item 
-game_login 
-game_music 
-game_select 
-game_summary 
-login_setting 
-music_score 
+game_item  
+game_login  
+game_music  
+game_select  
+game_summary  
+login_setting  
+music_score  
  
 图片文件四个文件夹：
 game
