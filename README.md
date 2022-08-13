@@ -38,25 +38,25 @@ data文件夹，放游戏数据和谱面数据，csv格式
 # 文件tree  
   
 project  
-|_py文件*9  
-|_data  
-  |_music_scores  
+|_ py文件*9  
+|_ data  
+  |_ music_scores  
     |_谱面数据文件（.csv）  
   |_record.csv(游戏记录数据文件)  
-  
+    
 |_font  
-  |_各类字体文件  
+  |_ 各类字体文件  
   
 |_music  
-  |_音乐文件(.mp3)  
+  |_ 音乐文件(.mp3)  
   
-|_picture    
-  |_game  
+|_ picture    
+  |_ game  
     |_ 图片文件(.png)  
   |_login  
     |_ 图片文件(.png)  
   |_select  
-    |_ 图片文件(.png)  
+    |_图片文件(.png)  
   |_summary  
     |_ 图片文件(.png)  
   
