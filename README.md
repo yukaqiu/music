@@ -53,10 +53,13 @@ project
 |_ picture    
 >|_ game  
 >>|_ 图片文件(.png)  
+
 >|_login  
 >>|_ 图片文件(.png)  
+
 >|_select  
 >>|_图片文件(.png)  
+
 >|_summary  
 >>|_ 图片文件(.png)  
   
