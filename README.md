@@ -35,10 +35,11 @@ data文件夹，放游戏数据和谱面数据，csv格式
 曲名         是否fc   谱面数据文件名            歌曲路径                   最高分数  
 夜行性ハイズ	 1	      music_2.csv  	Poppin'Party - 夜行性ハイズ.mp3	   99.28571429  
   
-# 文件tree  
+## 文件tree  
   
 project  
 |_ py文件*9  
+
 |_ data  
 >|_ music_scores  
 >>|_谱面数据文件（.csv）  
