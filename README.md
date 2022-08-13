@@ -28,6 +28,7 @@ data文件夹，放游戏数据和谱面数据，csv格式
 
 铺面数据：
 节拍时间点 按键类型  下落轨道
+
 ![image](https://user-images.githubusercontent.com/99095860/184466548-3dfb7e84-708c-44e6-9170-c361347110d3.png)
 
 游戏数据：  
