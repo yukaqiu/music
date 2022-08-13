@@ -1,11 +1,10 @@
 基于PYTHON的音游，性能不咋地应付毕业论文还是可以（
  
-代码文件九个：  
+代码文件8个：  
 game  
 game_hub  
 game_item  
 game_login  
-game_music  
 game_select  
 game_summary  
 login_setting  
@@ -38,7 +37,7 @@ data文件夹，放游戏数据和谱面数据，csv格式
 ## 文件tree  
   
 project  
-|_ py文件*9  
+|_ py文件*8 
 
 |_ data  
 >|_ music_scores  
