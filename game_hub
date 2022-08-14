@@ -1,0 +1,29 @@
+import pygame
+from game_items import *
+
+
+class HUDPanel(object):
+
+    def __init__(self, display_group):
+        # 基本数据
+        self.display_group = display_group
+        # 图片精灵
+
+        self.status_sprite = StatusButton(('game/pause_button.png','game/continue_button.png'),
+                                          ('game/pause_button.png','game/continue_button_touch.png'),display_group)
+
+        self.replay_sprite = ChangePanelButton("game/replay_button.png", "game/replay_button_touch.png", "replay",
+                                          self.display_group)
+        self.menu_sprite = ChangePanelButton("game/menu_button.png", "game/menu_button_touch.png", "menu",
+                                          self.display_group)
+        self.replay_sprite.rect.center = (477, 234)
+        self.menu_sprite.rect.center = (266, 234)
+        # 数字标签
+
+    def panel_pause(self,is_game_pause):
+        self.status_sprite.switch_pause_continue(is_game_pause)
+
+        if is_game_pause:
+            self.display_group.add(self.replay_sprite, self.menu_sprite)
+        else:
+            self.display_group.remove(self.replay_sprite,self.menu_sprite)
